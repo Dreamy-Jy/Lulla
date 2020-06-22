@@ -14,11 +14,12 @@ addDecorator(storyFn => <SafeAreaView style={{flex: 1, justifyContent:"center", 
 
 // import stories
 configure(() => {
-  require('../source/components/TextLink/TextLink.stories');
+  require('../source/components/screens/AuthScreen.stories');
   require('../source/components/screens/LoginScreen.stories');
   require('../source/components/screens/InteractionManagementScreen.stories');
   require('../source/components/screens/ServicesScreen.stories');
   require('../source/components/screens/SideBarScreen.stories');
+  require('../source/components/TextLink/TextLink.stories');
   require('../source/components/CheckedTextInput/CheckedTextInput.stories');
   require('../source/components/PillButton/PillButton.stories');
   require('../source/components/items/IDBar.stories');

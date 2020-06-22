@@ -24,7 +24,7 @@ export default class SideBarScreen extends Component {
                                     width:24,
                                     justifyContent:'center',
                                     alignItems: 'center'
-                                },
+                                }
                             ]
                         }>
                             <Icon
@@ -56,6 +56,7 @@ export default class SideBarScreen extends Component {
                         <SafeAreaView style={
                                 [
                                     {flex: 1, paddingTop: 48},
+                                    this.props.style
                                 ]
                             }>
                             {this.props.children}

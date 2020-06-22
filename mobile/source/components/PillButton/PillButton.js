@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Animated, Text, TouchableWithoutFeedback, View, StyleSheet } from "react-native";
 import typography from "../../config/typography";
 
-export default function PillButton({ text, action, color, highlightColor}) {
+export default function PillButton({ text, action, color, highlightColor, style, disabled}) {
     const buttonColor = useRef(new Animated.Value(0)).current;
 
     const buttonColorRange = buttonColor.interpolate({
@@ -10,7 +10,7 @@ export default function PillButton({ text, action, color, highlightColor}) {
         outputRange: [color, highlightColor]
     });
     return (
-        <View>
+        <View style={[style]}>
             <TouchableWithoutFeedback 
                 onPressIn={() => {
                     Animated.timing(buttonColor, {
@@ -24,8 +24,9 @@ export default function PillButton({ text, action, color, highlightColor}) {
                         duration: 500
                     }).start();
                     action();
-                }}>
-                <Animated.View style={[{backgroundColor: buttonColorRange},{borderRadius: 16}]}>
+                }}
+                disabled={(disabled)? true: false}>
+                <Animated.View style={[{backgroundColor: (disabled)? '#B5B5B5': buttonColorRange},{borderRadius: 16}]}>
                     <Text style={[typography.BODY_BOLD_STYLE, styles.text]}>{text}</Text>
                 </Animated.View>
             </TouchableWithoutFeedback>

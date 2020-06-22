@@ -1,9 +1,7 @@
 import React from 'react';
 import SideBarScreen from './SideBarScreen';
 import { storiesOf } from "@storybook/react-native";
-import { action } from "@storybook/addon-actions";
 import { Alert } from 'react-native';
-import TokenSet from '../Tokens/TokenSet';
 
 const datumOne = [
     {
