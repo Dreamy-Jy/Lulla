@@ -39,8 +39,8 @@ export default class ChipSet extends Component {
             items.push(
             <Chip
                 action={() => {this.removeElement(element.id)}}
-                color={'#FF9100'}
-                highlightColor={'#FFB85C'}
+                color={this.props.color}
+                highlightColor={this.props.highlightColor}
                 iconName={'times'}
                 text={element.label}
                 style={{marginRight: 8, marginBottom: 8}}
@@ -49,7 +49,7 @@ export default class ChipSet extends Component {
         });
 
         return(
-            <View>
+            <View style={this.props.style}>
                 <Text style={{
                         fontFamily: 'Raleway-Bold',
                         fontSize: 24,
@@ -65,8 +65,8 @@ export default class ChipSet extends Component {
                         {items}
                 </View>
                 <RoundFlatActionButton
-                    color='#FF9100'
-                    highlightColor='#FFB85C'
+                    color={this.props.color}
+                    highlightColor={this.props.highlightColor}
                     iconName='plus'
                     action={this.addElement}
                     style={{

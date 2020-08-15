@@ -14,6 +14,8 @@ addDecorator(storyFn => <SafeAreaView style={{flex: 1, justifyContent:"center", 
 
 // import stories
 configure(() => {
+  require('../source/components/screens/IntegrationsScreen.stories');
+  require('../source/components/InteractionForm/InteractionForm.stories');
   require('../source/components/screens/AuthScreen.stories');
   require('../source/components/screens/LoginScreen.stories');
   require('../source/components/screens/InteractionManagementScreen.stories');

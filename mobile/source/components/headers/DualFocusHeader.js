@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Image, Text, StyleSheet } from 'react-native';
 
-export default function DualFocusHeader({primaryFocusLogo, primaryFocusName, secondaryFocusLogo, secondaryFocusName, headerTitle}) {
+export default function DualFocusHeader({style, primaryFocusLogo, primaryFocusName, secondaryFocusLogo, secondaryFocusName, headerTitle}) {
     return(
-        <View style={[styles.container]}>
+        <View style={[styles.container, style]}>
             <Image 
                 source={primaryFocusLogo}
                 style={[
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         paddingVertical: 6.5
     },
     subContainer: {
-        marginHorizontal: 8,
+        marginHorizontal: 4,
     },
     focusText: {
         fontFamily: 'Raleway-Italic',

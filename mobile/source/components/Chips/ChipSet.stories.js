@@ -1,7 +1,6 @@
 import React from "react";
 import ChipSet from "./ChipSet";
 import { storiesOf } from "@storybook/react-native";
-import { action } from "@storybook/addon-actions";
 
 const data = [
     {
@@ -41,6 +40,8 @@ const data = [
 ];
 
 storiesOf('Chip Set', module)
-    .add('Expected', () => <ChipSet 
+    .add('Expected', () => <ChipSet
+                                color={'#FF9100'}
+                                highlightColor={'#FFB85C'}
                                 data={data}
                                 headerText='Assignments to Calendars'/>);

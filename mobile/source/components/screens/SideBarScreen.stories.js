@@ -21,6 +21,7 @@ const datumOne = [
 
 storiesOf('Side Bar Screen', module)
     .add('Expected', () => <SideBarScreen 
-                                backgroundColor={'#FF9100'}
+                                color={'#FF9100'}
+                                highlightColor={'#FFB85C'}
                                 iconName={'chevron-left'}
-                                action={() => {Alert.alert('button pressed')}}/>);
+                                action={() => {}}/>);
