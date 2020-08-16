@@ -2,9 +2,8 @@
 
 // InputAction = [  ];
 import React from 'react';
-import Modal from './Modal';
+import ChipListModal from './ChipListModal';
 import { storiesOf } from '@storybook/react-native';
-import { action } from '@storybook/addon-actions';
 import { View, Dimensions, Alert } from 'react-native';
 
 const data = [
@@ -44,18 +43,16 @@ const data = [
     }
 ];
 
-storiesOf('Modal', module)
-    .add('Expected', () => <View style={
-        {
-            flex: 1,
-            width: Dimensions.get('window').width,
-            backgroundColor: 'rgba(0,0,0, .54)',
-            justifyContent: 'center',
-            alignItems: 'center'
-        }
-    }>
-        <Modal
-            title={'Calendar'}
-            options={data}
-            closingAction={()=>{Alert.alert('Closing Button Pressed')}}/>
-    </View>);
+storiesOf('Chip List Modal', module)
+    .add('Expected', () => <View style={{
+                                flex: 1,
+                                width: Dimensions.get('window').width,
+                                backgroundColor: 'rgba(0,0,0, .54)',
+                                justifyContent: 'center',
+                                alignItems: 'center'
+                                }}>
+                                <ChipListModal
+                                    title={'Calendar'}
+                                    options={data}
+                                    closingAction={()=>{Alert.alert('Closing Button Pressed')}}/>
+                            </View>);

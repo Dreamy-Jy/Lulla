@@ -2,16 +2,17 @@ import React from "react";
 import LinkSet from "./LinkSet";
 import { storiesOf } from "@storybook/react-native";
 import { action } from "@storybook/addon-actions";
+import { BLACKBOARD_ID, GOOGLE_CALENDAR_ID, MICROSOFT_TODO_ID } from "../../config/values";
 
 const datumOne = [
     {
-        serviceID: 'blackboard',
+        serviceID: BLACKBOARD_ID,
         inUse: true
     },{
-        serviceID: 'g_calendar',
+        serviceID: GOOGLE_CALENDAR_ID,
         inUse: true
     },{
-        serviceID: 'ms_todo',
+        serviceID: MICROSOFT_TODO_ID,
         inUse: false
     }
 ];

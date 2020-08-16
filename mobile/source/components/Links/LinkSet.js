@@ -12,10 +12,10 @@ import typography from "../../config/typography";
  *     },...
  * ]
  */
-export default function LinkSet({data, headerText, primaryHighlightColor, primaryIconColor, primaryAction, secondaryHighlightColor, secondaryIconColor, secondaryAction}) {
+export default function LinkSet({style, data, headerText, primaryHighlightColor, primaryIconColor, primaryAction, secondaryHighlightColor, secondaryIconColor, secondaryAction}) {
     return (
         <FlatList
-            style={{}}
+            style={[style]}
             data={data}
             renderItem={({item}) => renderLink(item, primaryHighlightColor, primaryIconColor, primaryAction, secondaryHighlightColor, secondaryIconColor, secondaryAction)}
             keyExtractor={item => item.serviceID}
@@ -28,7 +28,7 @@ export default function LinkSet({data, headerText, primaryHighlightColor, primar
 function renderLink(item, primaryHighlightColor, primaryIconColor, primaryAction, secondaryHighlightColor, secondaryIconColor, secondaryAction) {
     
     const props = {
-        text: item.serviceID,
+        text: typography.getServiceName(item.serviceID),
         imageURL: typography.getLogo(item.serviceID),
         ...(item.inUse)? {
             action: primaryAction,

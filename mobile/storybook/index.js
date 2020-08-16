@@ -36,7 +36,7 @@ configure(() => {
   require('../source/components/Links/LinkSet.stories');
   require('../source/components/Tokens/TokenSet.stories');
   require('../source/components/Chips/ChipSet.stories');
-  require('../source/components/Modal/Modal.stories');
+  require('../source/components/Modal/ChipListModal.stories');
 }, module);
 
 

@@ -58,7 +58,8 @@ export default function Chip({action, color, highlightColor, iconName, text, sty
                                 //     toValue: 0,
                                 //     duration: 500
                                 // })
-                            ]).start(action);
+                            ]).start();
+                            action()
                             
                         }}>
                         <Icon 

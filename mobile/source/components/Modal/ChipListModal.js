@@ -8,7 +8,7 @@ import colors from '../../config/colors';
 We need a way to extend components for speical use.
 */
 
-export default function Modal({itemAction, closingAction, options, title}) {
+export default function ChipListModal({itemAction, closingAction, options, title}) {
     
 
     return(
