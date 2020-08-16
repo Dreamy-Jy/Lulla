@@ -15,6 +15,7 @@ export default class IntegrationsScreen extends Component {
 
         this.closeModal = this.closeModal.bind(this);
         this.openModal = this.openModal.bind(this);
+        this.editResponses = this.editResponses.bind(this);
     }
 
     openModal() {
@@ -28,6 +29,26 @@ export default class IntegrationsScreen extends Component {
             modalVisible: false
         });
     }
+
+    editResponses(id, type, editConfig) {
+        // let currentform = JSON.parse(JSON.stringify(this.state.formData));
+        // let response = currentform.find(x => x.id == id).response; // Error Hidding here
+
+        switch (type) {
+            case 'one2many_add':
+                this.openModal();
+                return;
+            case 'one2many_remove':
+                // currentform.find(x => x.id == id).response = response.filter(item => item.id != editConfig.removeID);
+                // this.setState({
+                //     formData: currentform
+                // });
+                return;
+            default:
+                return;
+        }
+    }
+
 
     render() {
         return(
@@ -62,7 +83,8 @@ export default class IntegrationsScreen extends Component {
                         highlightColor={'#FFB85C'}
                         data={this.props.formData}
                         primaryFocusID={this.props.primaryFocusID}
-                        secondaryFocusID={this.props.secondaryFocusID}/>
+                        secondaryFocusID={this.props.secondaryFocusID}
+                        modifyFormAction={this.editResponses}/>
             </SideBarScreen>
         );
     }
