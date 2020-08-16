@@ -10,7 +10,7 @@ import {
 import Icon from "react-native-vector-icons/FontAwesome5";
 import GradientView from "../native modules/GradientView";
 
-export default function Token({action, color, text, logoImage, iconName, iconColor, style}) {
+export default function Token({action, palette, text, logoImage, iconName, iconColor, style}) {
     const ScalableGradient = Animated.createAnimatedComponent(GradientView);
     const componentScale = useRef(new Animated.Value(0)).current;
     const componentScaleRange = componentScale.interpolate({
@@ -36,7 +36,7 @@ export default function Token({action, color, text, logoImage, iconName, iconCol
                 }}>
                 <ScalableGradient
                     style={[styles.container, {
-                        backgroundColor: color,
+                        backgroundColor: palette.background,
                         transform: [
                             {scale: componentScaleRange}
                         ]
@@ -45,12 +45,12 @@ export default function Token({action, color, text, logoImage, iconName, iconCol
                         <Image 
                             source={logoImage}
                             style={[styles.logo]}/>
-                        <Text style={[styles.text]}>{text}</Text>
+                        <Text style={[styles.text, {color: palette.type}]}>{text}</Text>
                     </View>
                     <Icon 
                         name={iconName}
-                        size={24}
-                        color={iconColor}
+                        size={32}
+                        color={palette.type}
                         style={[styles.icon]}/>
                 </ScalableGradient>
             </TouchableWithoutFeedback>
@@ -89,9 +89,8 @@ const styles = StyleSheet.create({
         marginBottom: 8
     },
     text: {
-        color: '#000000',
         fontSize: 24,
-        fontFamily: 'Raleway-Regular',
+        fontFamily: 'Raleway-Bold',
         textAlign: 'center'
     },
     icon: {

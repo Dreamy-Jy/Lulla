@@ -22,12 +22,13 @@ import colors from "../../config/colors";
  * ]
  */
 
-export default function TokenSet({data, primaryIconColor, primaryAction, secondaryIconColor, secondaryAction, title, focusID}) {
+export default function TokenSet({style, services, primaryAction, secondaryAction, title, focusID}) {
 
     return(
         <FlatList
-            data={data}
-            renderItem={({item}) => renderToken(item, primaryIconColor, primaryAction, secondaryIconColor, secondaryAction)}
+            style={[style]}
+            data={services}
+            renderItem={({item}) => renderToken(item, primaryAction, secondaryAction)}
             keyExtractor={item => item.serviceID}
             ListEmptyComponent={() => errorOnEmpty()}
             numColumns={2}
@@ -38,21 +39,19 @@ export default function TokenSet({data, primaryIconColor, primaryAction, seconda
     );
 }
 
-function renderToken(item, primaryIconColor, primaryAction, secondaryIconColor, secondaryAction) {
+function renderToken(item, primaryAction, secondaryAction) {
 
     const props = {
         style: styles.token,
         text: typography.getTokenFormatedServiceName(item.serviceID), // need system here
         logoImage: typography.getLogo(item.serviceID),
-        color: colors.getTokenColors(item.serviceID), 
+        palette: colors.getTokenPalette(item.serviceID), 
         ...(item.areLinked)? {
             action: primaryAction,
             iconName: 'pen',
-            iconColor: primaryIconColor
         }:{
             action: secondaryAction,
             iconName: 'plus',
-            iconColor: secondaryIconColor
         }
     };
 

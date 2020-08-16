@@ -1,31 +1,29 @@
 import React from "react";
 import TokenSet from "./TokenSet";
 import { storiesOf } from "@storybook/react-native";
-import { action } from "@storybook/addon-actions";
+import { BLACKBOARD_ID, GOOGLE_CALENDAR_ID, MICROSOFT_TODO_ID, TODOIST_ID } from "../../config/values";
 
 const datumOne = [
     {
-        serviceID: 'blackboard',
+        serviceID: BLACKBOARD_ID,
         areLinked: true
     },{
-        serviceID: 'g_calendar',
+        serviceID: GOOGLE_CALENDAR_ID,
         areLinked: true
     },{
-        serviceID: 'ms_todo',
+        serviceID: MICROSOFT_TODO_ID,
         areLinked: false
     },{
-        serviceID: 'todoist',
+        serviceID: TODOIST_ID,
         areLinked: false
     }
 ];
 
 storiesOf('Token Set', module)
     .add('Expected', () => <TokenSet 
-                                data={datumOne}
-                                primaryIconColor='#FF9100'
-                                primaryAction={action('button-click')}
-                                secondaryIconColor='#4DA835'
-                                secondaryAction={action('button-click')}
+                                services={datumOne}
+                                primaryAction={()=> {}}
+                                secondaryAction={()=> {}}
                                 title='Links'
-                                focusID='g_calendar'/>);
+                                focusID={GOOGLE_CALENDAR_ID}/>);
 

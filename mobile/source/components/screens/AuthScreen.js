@@ -72,11 +72,13 @@ export default class AuthScreen extends Component {
         console.log("Should button be enabled: " + (this.state.passwordValid && this.state.userNameValid))
         return(
             <SideBarScreen
-                backgroundColor={'#FF9100'}
+                color={'#FF9100'}
+                highlightColor={'#FFB85C'}
                 iconName={'chevron-left'}
                 action={() => {}}
                 style={{
                     paddingLeft: 24,
+                    paddingTop: 48,
                     paddingRight: 8
                 }}>
 

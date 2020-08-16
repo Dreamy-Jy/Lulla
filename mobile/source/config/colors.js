@@ -20,16 +20,28 @@ const signatureGradient = [
     '#FF9100'
 ];
 
-function getTokenColors(serviceID) {
+function getTokenPalette(serviceID) {
     switch (serviceID) {
         case TODOIST_ID:
-            return '#FFB5B5';
+            return {
+                background: '#FFB5B5',
+                type: '#CC0000'
+            };
         case BLACKBOARD_ID:
-            return '#FFECBF';
+            return {
+                background: '#FFECBF',
+                type: '#CC8100'
+            };
         case MICROSOFT_TODO_ID:
-            return '#C4E4F5';
+            return {
+                background: '#C4E4F5',
+                type: '#008CFF'
+            };
         case GOOGLE_CALENDAR_ID:
-            return '#B5C3FF';
+            return {
+                background: '#B5C3FF',
+                type: '#002BFF'
+            };
         default:
             throw `There is no Service Name formated for the token component, connected to the Service ID {`+serviceID+`}:
             \n\t(1)The service you trying to get data for may not be supported
@@ -39,7 +51,7 @@ function getTokenColors(serviceID) {
 
 
 export default {
-    getTokenColors: getTokenColors,
+    getTokenPalette: getTokenPalette,
     IDBarEnabled: primaryColor,
     IDBarDisabled: disabledColor,
     IDBarHighlight: primaryHighlightColor,

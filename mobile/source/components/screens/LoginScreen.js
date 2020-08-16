@@ -1,6 +1,5 @@
 import React,{ Component } from "react";
 import { View, Text, Alert, Dimensions, SafeAreaView, Platform, StyleSheet } from "react-native";
-import IDBar from "../items/IDBar";
 import SignatureButton from "../items/SignatureButton";
 import colors from "../../config/colors";
 import typography from "../../config/typography";
@@ -42,7 +41,7 @@ const styles = StyleSheet.create({
     },
     container:{
         width: '100%',
-        marginLeft: 24
+        marginLeft: 24,
     },
     signature:{
         alignSelf: 'flex-start',
