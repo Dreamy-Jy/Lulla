@@ -10,7 +10,7 @@ MERGED from [:@react-native-community_async-storage] /Users/jordanethomas/Projec
 MERGED from [:react-native-vector-icons] /Users/jordanethomas/Projects/Mobile-Apps/Lulla/mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/4d4cf176d7d17a27a48966f779fcb1f0/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0a1c583dc8bd529d57cd2299ea1760ca/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.core:core-ktx:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/7b907d0c008ab636757116d63d9577da/core-ktx-1.3.0-beta01/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/33712f344892524fd6736c60fec1f359/core-ktx-1.5.0-alpha02/AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.0.8] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0c264bcf82d7c2e9362ce3cc38912fad/ahbottomnavigation-3.0.8/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/9af8935fdccad490380668be5632aa9e/material-1.1.0-alpha08/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/433a814796ed9a729413f85fc9cfb6cd/jetified-reflow-animator-1.0.4/AndroidManifest.xml:2:1-12:12
@@ -43,7 +43,7 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jordan
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/e149ec33f06013b1309e1739137f1b68/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/40edee56f7defaceabf977d75286721c/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/2120225046cb50d6222bee7d54d44f2d/activity-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/f1a524031055a7046fb256d59e37ec75/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/25ea56dcdbc6e270dcf2072cb22e76cd/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/45e5eda4422f73addc6fb4de6465e1e5/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -97,14 +97,14 @@ MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/jordanet
 MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/9af8935fdccad490380668be5632aa9e/material-1.1.0-alpha08/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/561391d05b266f34fc20eecb18f9ec61/soloader-0.6.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/561391d05b266f34fc20eecb18f9ec61/soloader-0.6.0/AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/25ea56dcdbc6e270dcf2072cb22e76cd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/25ea56dcdbc6e270dcf2072cb22e76cd/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.github.clans:fab:1.6.4] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/dd6e969d32ba2475cb2d6244f508c91f/fab-1.6.4/AndroidManifest.xml:12:5-20
 MERGED from [com.github.clans:fab:1.6.4] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/dd6e969d32ba2475cb2d6244f508c91f/fab-1.6.4/AndroidManifest.xml:12:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/jordanethomas/Projects/Mobile-Apps/Lulla/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
 		ADDED from /Users/jordanethomas/Projects/Mobile-Apps/Lulla/mobile/android/app/src/main/AndroidManifest.xml:8:7-39
@@ -171,8 +171,8 @@ MERGED from [com.facebook.react:react-native:0.61.5] /Users/jordanethomas/.gradl
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/4d4cf176d7d17a27a48966f779fcb1f0/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0a1c583dc8bd529d57cd2299ea1760ca/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0a1c583dc8bd529d57cd2299ea1760ca/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.core:core-ktx:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/7b907d0c008ab636757116d63d9577da/core-ktx-1.3.0-beta01/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/7b907d0c008ab636757116d63d9577da/core-ktx-1.3.0-beta01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/33712f344892524fd6736c60fec1f359/core-ktx-1.5.0-alpha02/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/33712f344892524fd6736c60fec1f359/core-ktx-1.5.0-alpha02/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.0.8] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0c264bcf82d7c2e9362ce3cc38912fad/ahbottomnavigation-3.0.8/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.0.8] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/0c264bcf82d7c2e9362ce3cc38912fad/ahbottomnavigation-3.0.8/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/9af8935fdccad490380668be5632aa9e/material-1.1.0-alpha08/AndroidManifest.xml:20:5-44
@@ -237,8 +237,8 @@ MERGED from [androidx.media:media:1.0.0] /Users/jordanethomas/.gradle/caches/tra
 MERGED from [androidx.media:media:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/40edee56f7defaceabf977d75286721c/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/2120225046cb50d6222bee7d54d44f2d/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/2120225046cb50d6222bee7d54d44f2d/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0-beta01] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/025cda6dee714d89b28b573bd1bd240e/core-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/6b76134c59d90a55ce098b336fa7263b/core-1.5.0-alpha02/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/f1a524031055a7046fb256d59e37ec75/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/f1a524031055a7046fb256d59e37ec75/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jordanethomas/.gradle/caches/transforms-2/files-2.1/25ea56dcdbc6e270dcf2072cb22e76cd/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41

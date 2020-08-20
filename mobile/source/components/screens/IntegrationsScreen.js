@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import SideBarScreen from "./SideBarScreen";
 import InteractionForm from "../InteractionForm/InteractionForm";
-import { Modal, TouchableWithoutFeedback, View } from "react-native";
+import { Modal, TouchableWithoutFeedback, View, Alert, Dimensions } from "react-native";
 import ChipListModal from "../Modal/ChipListModal";
 // import { } from "react-native";
 
@@ -10,17 +10,58 @@ export default class IntegrationsScreen extends Component {
         super(props);
 
         this.state = {
-            modalVisible: false
+            modalVisible: false,
+            modalOptions: 1,
+            allOptions: [
+                {
+                    formID: 1,
+                    data: [
+                        {
+                            label: '',
+                            id: -1,
+                        },
+                    ],
+                },
+            ],
+            formData: [
+                {
+                    id: -1,
+                    question: '',
+                    type: '',
+                    response: [
+                        {
+                            label: '',
+                            id: -1,
+                        },
+                    ],
+                }
+            ],
         };
 
         this.closeModal = this.closeModal.bind(this);
         this.openModal = this.openModal.bind(this);
         this.editResponses = this.editResponses.bind(this);
+        this.transferOptionToFormResponse = this.transferOptionToFormResponse.bind(this);
     }
 
-    openModal() {
+    componentWillMount() {
         this.setState({
-            modalVisible: true
+            allOptions: optionAll,
+            formData: dataForm,
+        }, () => {
+            this.setState({
+                modalOptions: this.state.allOptions[0].formID
+            });
+        });
+    }
+
+    openModal(id) {
+        this.setState({
+            modalOptions: id 
+        },() => {
+            this.setState({
+                modalVisible: true
+            });
         });
     }
 
@@ -36,21 +77,50 @@ export default class IntegrationsScreen extends Component {
 
         switch (type) {
             case 'one2many_add':
-                this.openModal();
+                this.openModal(id);
                 return;
             case 'one2many_remove':
-                // currentform.find(x => x.id == id).response = response.filter(item => item.id != editConfig.removeID);
-                // this.setState({
-                //     formData: currentform
-                // });
+                // Copy all data to be modified
+                let formCopy = JSON.parse(JSON.stringify(this.state.formData));
+                let addToOptions = formCopy.find(ele => ele.id == id).response.filter(ele => ele.id == editConfig.removeID)[0];
+                let allOptionsCopy = JSON.parse(JSON.stringify(this.state.allOptions));
+                
+                // remove element form form response
+                formCopy.find(ele => ele.id == id).response = formCopy.find(ele => ele.id == id).response.filter(ele => ele.id != editConfig.removeID);
+
+                // Add element to 
+                const optionsCopy = {...this.state.allOptions.find(ele => ele.formID == id)};
+                const optionsLength = optionsCopy.data.length;
+                addToOptions.id = (optionsLength > 0)? optionsCopy.data[optionsLength -1].id +1: 0;
+
+                allOptionsCopy.find(ele => ele.formID == id).data.push(addToOptions);
+
+                this.setState({
+                    formData: formCopy,
+                    allOptions: allOptionsCopy
+                });
                 return;
             default:
                 return;
         }
     }
 
+    transferOptionToFormResponse(option) {
+        let allOptionsCopy = JSON.parse(JSON.stringify(this.state.allOptions));
+        let formDataCopy = JSON.parse(JSON.stringify(this.state.formData));
+
+        allOptionsCopy.find(ele => ele.formID == this.state.modalOptions).data = allOptionsCopy.find(ele => ele.formID == this.state.modalOptions).data.filter(ele => ele.id != option.id);
+        formDataCopy.find(ele => ele.id == this.state.modalOptions).response.push(option);
+
+        this.setState({
+            allOptions: allOptionsCopy,
+            formData: formDataCopy,
+        });
+    }
 
     render() {
+        const modalOptions = this.state.allOptions.find(option => option.formID == this.state.modalOptions);
+
         return(
             <SideBarScreen
                 color={'#FF9100'}
@@ -59,20 +129,27 @@ export default class IntegrationsScreen extends Component {
                 action={this.props.backAction}>
                     <Modal
                         visible={this.state.modalVisible}
-                        transparent={true}>
+                        transparent={true}
+                        style={{
+                            justifyContent: 'center'
+                        }}>
                             <TouchableWithoutFeedback
                                 onPress={this.closeModal}
                                 disabled={!this.state.modalVisible}>
-                                <View style={{
-                                    flex: 1,
-                                    backgroundColor: 'rgba(0,0,0, .54)',
-                                    justifyContent: 'center',
-                                    alignItems: 'center'
-                                }}>
-                                    <ChipListModal
-                                        title={'Calendars'}
-                                        options={[]}
-                                        closingAction={this.closeModal}/>
+                                <View 
+                                    style={{
+                                        flex: 1,
+                                        backgroundColor: 'rgba(0,0,0, .54)',
+                                        justifyContent: 'center',
+                                        alignItems: 'center'
+                                    }}>
+                                    {/* <TouchableWithoutFeedback onPress={() => {}}> */}
+                                        <ChipListModal
+                                            title={'Calendars'}
+                                            options={modalOptions.data}
+                                            closingAction={this.closeModal}
+                                            chipAction={this.transferOptionToFormResponse}/>
+                                    {/* </TouchableWithoutFeedback> */}
                                 </View>
                             </TouchableWithoutFeedback>
 
@@ -81,7 +158,7 @@ export default class IntegrationsScreen extends Component {
                         style={{marginLeft: 24, paddingTop: 50}}
                         color={'#FF9100'}
                         highlightColor={'#FFB85C'}
-                        data={this.props.formData}
+                        data={this.state.formData}
                         primaryFocusID={this.props.primaryFocusID}
                         secondaryFocusID={this.props.secondaryFocusID}
                         modifyFormAction={this.editResponses}/>
@@ -89,3 +166,122 @@ export default class IntegrationsScreen extends Component {
         );
     }
 }
+
+const optionAll = [
+    {
+        formID: 1,
+        data: [
+            {
+                label: 'Form test',
+                id: 0,
+            },{
+                label: 'Form Option 1, 2',
+                id: 1,
+            },{
+                label: 'Form Option 1, 3',
+                id: 22,
+            },{
+                label: 'Form Option 1, 4',
+                id: 32,
+            },
+        ],
+    },{
+        formID: 2,
+        data: [
+            {
+                label: 'Form Option 2',
+                id: 0,
+            },{
+                label: 'Form Option 2',
+                id: 1,
+            },{
+                label: 'Form Option 2',
+                id: 2,
+            },{
+                label: 'Form Option 2',
+                id: 3,
+            },{
+                label: 'Form Option 2',
+                id: 4,
+            },{
+                label: 'Form Option 2',
+                id: 5,
+            },{
+                label: 'Form Option 2',
+                id: 6,
+            },{
+                label: 'Form Option 2',
+                id: 7,
+            },{
+                label: 'Form Option 2',
+                id: 8,
+            },{
+                label: 'Form Option 2',
+                id: 9,
+            },{
+                label: 'Form Option 2',
+                id: 10,
+            }
+        ],
+    },
+];
+
+const dataForm = [
+    {
+        id: 1,
+        question: "Assignments to Calendars",
+        type: "one2many",
+        response: [
+            {
+                label: 'Main',
+                id: 0,
+            },{
+                label: 'Side Calendar',
+                id: 1,
+            },{
+                label: 'Home Work',
+                id: 2,
+            },{
+                label: 'Jax',
+                id: 3,
+            },{
+                label: 'Test',
+                id: 4,
+            },{
+                label: 'Side Calendar',
+                id: 5,
+            },{
+                label: 'Test',
+                id: 6,
+            }
+        ]
+    },{
+        id: 2,
+        question: "Exams to Calendar",
+        type: "one2many",
+        response: [
+            {
+                label: 'Main',
+                id: 0,
+            },{
+                label: 'Side Calendar',
+                id: 1,
+            },{
+                label: 'Home Work',
+                id: 2,
+            },{
+                label: 'Jax',
+                id: 3,
+            },{
+                label: 'Test',
+                id: 4,
+            },{
+                label: 'Side Calendar',
+                id: 5,
+            },{
+                label: 'Test',
+                id: 6,
+            }
+        ]
+    },
+]

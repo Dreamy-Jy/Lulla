@@ -54,5 +54,6 @@ storiesOf('Chip List Modal', module)
                                 <ChipListModal
                                     title={'Calendar'}
                                     options={data}
-                                    closingAction={()=>{Alert.alert('Closing Button Pressed')}}/>
+                                    closingAction={()=>{}}
+                                    chipAction={() => {}}/>
                             </View>);

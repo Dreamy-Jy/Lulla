@@ -11,7 +11,8 @@ export default function DualFocusHeader({style, primaryFocusLogo, primaryFocusNa
                     {
                         alignSelf: 'flex-start', 
                         transform: [{translateY: -6.5}]
-                    }]}/>
+                    }
+                ]}/>
             <View style={[styles.subContainer]}>
                 <Text style={[styles.focusText, {alignSelf: 'flex-start'}]}>{primaryFocusName}</Text>
                 <Text style={[styles.headerText, {alignSelf: 'center'}]}>{headerTitle}</Text>

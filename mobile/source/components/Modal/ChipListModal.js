@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Text, FlatList, TouchableWithoutFeedback, Alert } from 'react-native';
+import React, { useRef } from 'react'
+import { View, Text, FlatList, TouchableWithoutFeedback, Alert, Animated } from 'react-native';
 import Chip from "../Chips/Chip";
 import Icon from "react-native-vector-icons/FontAwesome5";
 import colors from '../../config/colors';
@@ -8,11 +8,19 @@ import colors from '../../config/colors';
 We need a way to extend components for speical use.
 */
 
-export default function ChipListModal({itemAction, closingAction, options, title}) {
+export default function ChipListModal({style, chipAction, closingAction, options, title}) {
+    const closingButtonColor = useRef(new Animated.Value(1)).current;
     
+    const closingButtonColorRange = closingButtonColor.interpolate({
+        inputRange: [0, 1],
+        outputRange: ['#B5B5B5', '#000000']
+    });
+
+    const ColorChangeIcon = Animated.createAnimatedComponent(Icon);
+
 
     return(
-        <View style={
+        <View style={[
             {
                 height: 260,
                 paddingLeft: 32,
@@ -22,8 +30,8 @@ export default function ChipListModal({itemAction, closingAction, options, title
                 paddingBottom: 16,
                 justifyContent: 'center',
                 alignItems: 'flex-start'
-            }
-        }>
+            }, style
+        ]}>
             <View flex={1}>
 
                 <View style={{
@@ -35,24 +43,37 @@ export default function ChipListModal({itemAction, closingAction, options, title
                         marginTop: 16,
                         paddingBottom: 16
                     }}>
-                    <Text style={
+                    <Animated.Text style={
                         {
                             fontSize: 24,
-                            fontFamily: 'Raleway-Bold'
+                            fontFamily: 'Raleway-Bold',
+                            color:closingButtonColorRange
                         }
-                    }>{title}</Text>
+                    }>{title}</Animated.Text>
                     <TouchableWithoutFeedback
-                        onPressOut={()=>{closingAction()}}>
-                        <Icon 
+                        onPressIn={() => {
+                            Animated.timing(closingButtonColor, {
+                                toValue: 0,
+                                duration: 65.5
+                            }).start();
+                        }}
+                        onPressOut={() => {
+                            Animated.timing(closingButtonColor, {
+                                toValue: 1,
+                                duration: 500
+                            }).start();
+                            closingAction();
+                        }}>
+                        <ColorChangeIcon 
                             name={'times'}
-                            size={24}
-                            color={'#000000'}
+                            size={32}
+                            color={closingButtonColorRange}
                             suppressHighlighting={true}/>
                     </TouchableWithoutFeedback>
                 </View>
                 <FlatList
                     data={options}
-                    renderItem={({item}) => renderChips(item)}
+                    renderItem={({item}) => renderChips(item, chipAction)}
                     keyExtractor={(item) => item.id}
                     contentContainerStyle={
                         {
@@ -69,7 +90,7 @@ function renderChips(item, action) {
     return(
         <Chip
             iconName='plus'
-            action={() => {Alert.alert('List Item '+item.id+' Pressed')}}
+            action={() => action(item)}
             color={'#4DA835'}
             highlightColor={'#8AE65C'}
             text={item.label}

@@ -56,8 +56,7 @@ export default class InteractionForm extends Component {
                 renderItem={({item}) => renderFormItem(item, this.props.color, this.props.highlightColor, this.props.modifyFormAction)}
                 keyExtractor={item => item.question}
                 ListEmptyComponent={() => errorOnEmpty()}
-                ListHeaderComponent={() => renderHeader( primaryFocusID, secondaryFocusID )}
-            />
+                ListHeaderComponent={() => renderHeader( primaryFocusID, secondaryFocusID )}/>
         );
     }
 }
