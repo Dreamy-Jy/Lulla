@@ -30,7 +30,7 @@ function getTokenPalette(serviceID) {
         case BLACKBOARD_ID:
             return {
                 background: '#FFECBF',
-                type: '#CC8100'
+                type: '#FF8000'
             };
         case MICROSOFT_TODO_ID:
             return {

@@ -67,9 +67,6 @@ export default class AuthScreen extends Component {
     }
 
     render() {
-        console.log("Username is valid:" + this.state.userNameValid);
-        console.log("Password is valid:" + this.state.passwordValid);
-        console.log("Should button be enabled: " + (this.state.passwordValid && this.state.userNameValid))
         return(
             <SideBarScreen
                 color={'#FF9100'}

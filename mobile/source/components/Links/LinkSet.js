@@ -31,7 +31,7 @@ function renderLink(item, primaryHighlightColor, primaryIconColor, primaryAction
         text: typography.getServiceName(item.serviceID),
         imageURL: typography.getLogo(item.serviceID),
         ...(item.inUse)? {
-            action: primaryAction,
+            action: () => primaryAction(item.serviceID),
             iconName: 'chevron-right',
             iconColor: primaryIconColor,
             highlightColor: primaryHighlightColor

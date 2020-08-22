@@ -47,7 +47,7 @@ function renderToken(item, primaryAction, secondaryAction) {
         logoImage: typography.getLogo(item.serviceID),
         palette: colors.getTokenPalette(item.serviceID), 
         ...(item.areLinked)? {
-            action: primaryAction,
+            action: () => primaryAction(item.serviceID),
             iconName: 'pen',
         }:{
             action: secondaryAction,

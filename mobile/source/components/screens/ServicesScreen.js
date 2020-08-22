@@ -3,6 +3,7 @@ import { View, Platform, TouchableWithoutFeedback, Alert, SafeAreaView } from 'r
 import SideBarScreen from './SideBarScreen';
 import TokenSet from '../Tokens/TokenSet';
 import { BLACKBOARD_ID, GOOGLE_CALENDAR_ID, MICROSOFT_TODO_ID, TODOIST_ID } from '../../config/values';
+import { Navigation } from 'react-native-navigation';
 
 function getServices(serviceID) {
     //We Need a method to get this Options based on ID, we need to design a method for this.
@@ -34,15 +35,29 @@ export default class ServicesScreen extends Component {
                 color={'#FF9100'}
                 highlightColor={'#FFB85C'}
                 iconName={'chevron-left'}
-                action={() => {}}
+                action={() => Navigation.pop(this.props.componentId)}
                 style={{paddingTop: 48}}>
                     <TokenSet
                         services={getServices(this.props.focusID)}
-                        primaryAction={() => {}}
-                        secondaryAction={() => {}}
+                        primaryAction={(secondaryFocusID) => selectNavProps(this.props.focusID, secondaryFocusID,this.props.componentId)}
+                        secondaryAction={() => {
+                            Alert.alert("implement a secondary action");
+                        }}
                         title={'Links'}
                         focusID={this.props.focusID}/>
             </SideBarScreen>
         );
     }
+}
+
+function selectNavProps(primaryFocusID, secondaryFocusID, componentID) {
+    Navigation.push(componentID, {
+        component: {
+            name: "Integrations Screen",
+            passProps: {
+                primaryFocusID: primaryFocusID,
+                secondaryFocusID: secondaryFocusID,
+            }
+        }
+    });
 }

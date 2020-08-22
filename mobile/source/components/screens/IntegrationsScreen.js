@@ -1,9 +1,13 @@
 import React, {Component} from "react";
+import { Navigation } from "react-native-navigation";
 import SideBarScreen from "./SideBarScreen";
 import InteractionForm from "../InteractionForm/InteractionForm";
 import { Modal, TouchableWithoutFeedback, View, Alert, Dimensions } from "react-native";
 import ChipListModal from "../Modal/ChipListModal";
-// import { } from "react-native";
+
+/**
+ * ISSUE: All IDs must be unique
+ */
 
 export default class IntegrationsScreen extends Component {
     constructor(props) {
@@ -44,7 +48,7 @@ export default class IntegrationsScreen extends Component {
         this.transferOptionToFormResponse = this.transferOptionToFormResponse.bind(this);
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.setState({
             allOptions: optionAll,
             formData: dataForm,
@@ -126,7 +130,7 @@ export default class IntegrationsScreen extends Component {
                 color={'#FF9100'}
                 highlightColor={'#FFB85C'}
                 iconName={'chevron-left'}
-                action={this.props.backAction}>
+                action={() => Navigation.pop(this.props.componentId)}>
                     <Modal
                         visible={this.state.modalVisible}
                         transparent={true}
@@ -135,7 +139,7 @@ export default class IntegrationsScreen extends Component {
                         }}>
                             <TouchableWithoutFeedback
                                 onPress={this.closeModal}
-                                disabled={!this.state.modalVisible}>
+                                disabled={true}>
                                 <View 
                                     style={{
                                         flex: 1,

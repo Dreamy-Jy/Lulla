@@ -64,7 +64,5 @@ const data = [
 
 storiesOf('Integrations Screen', module)
     .add('Expected', () => <IntegrationsScreen
-                                backAction={()=>{}}
                                 primaryFocusID={GOOGLE_CALENDAR_ID}
-                                secondaryFocusID={BLACKBOARD_ID}
-                                formData={data}/>);
+                                secondaryFocusID={BLACKBOARD_ID}/>);
