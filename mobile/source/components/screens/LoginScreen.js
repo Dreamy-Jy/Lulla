@@ -15,8 +15,9 @@ export default class LoginScreen extends Component {
                         <TextLink 
                             action={()=>{}}
                             color={'#FF9100'}
-                            highlightColor={'#FFB85C'}
-                            >Login</TextLink>
+                            highlightColor={'#FFB85C'}>
+                                Login
+                        </TextLink>
                         <Text>{'\nor\n'}</Text>
                         <TextLink 
                             action={()=> {}}
@@ -27,7 +28,9 @@ export default class LoginScreen extends Component {
                 <SignatureButton
                     style={styles.signature}
                     colors={colors.signatureGradient}
-                    action={()=>{}}/>
+                    action={()=>{
+                        Alert.alert('');
+                    }}/>
             </SafeAreaView>
         );
     }
@@ -46,8 +49,9 @@ const styles = StyleSheet.create({
     signature:{
         alignSelf: 'flex-start',
         marginLeft: 16,
-        ...Platform.select({
-            android: {marginBottom: 24},
-        })
+        marginBottom: 24,
+        // ...Platform.select({
+        //     android: {marginBottom: 24},
+        // })
     }
 });

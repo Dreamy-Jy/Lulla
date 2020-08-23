@@ -71,8 +71,9 @@ const styles = StyleSheet.create({
     signature: {
         alignSelf: 'flex-start',
         marginLeft: 16,
-        ...Platform.select({
-            android: {marginBottom: 24},
-        })
+        marginBottom: 24,
+        // ...Platform.select({
+        //     android: {marginBottom: 24},
+        // })
     }
 });

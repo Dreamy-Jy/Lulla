@@ -1,19 +1,11 @@
-import React from "react";
-import { SafeAreaView } from "react-native";
-import { getStorybookUI, configure, addDecorator } from '@storybook/react-native';
+import { AppRegistry } from 'react-native';
+import { getStorybookUI, configure } from '@storybook/react-native';
 
 import './rn-addons';
-import LoginScreen from "../source/components/screens/LoginScreen";
-import InteractionMangementScreen from "../source/components/screens/InteractionManagementScreen";
-import SideBarScreen from "../source/components/screens/SideBarScreen";
-
-
-
-addDecorator(storyFn => <SafeAreaView style={{flex: 1, justifyContent:"center", alignItems:"center"}}>{storyFn()}</SafeAreaView>);
-
 
 // import stories
 configure(() => {
+  require('./stories');
   require('../source/components/screens/IntegrationsScreen.stories');
   require('../source/components/InteractionForm/InteractionForm.stories');
   require('../source/components/screens/AuthScreen.stories');
@@ -38,7 +30,6 @@ configure(() => {
   require('../source/components/Chips/ChipSet.stories');
   require('../source/components/Modal/ChipListModal.stories');
 }, module);
-
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
 // To find allowed options for getStorybookUI

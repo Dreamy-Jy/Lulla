@@ -8,37 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* LullaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LullaTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1631CC7CF9D448DE903836D2 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6F5360E986745D0A8EB1DD6 /* Raleway-ExtraLight.ttf */; };
-		1B83AD899F9F43248DFDF5FE /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD6DE4E6418843AC9C276977 /* Raleway-MediumItalic.ttf */; };
-		2900B04F46644B53AB0BE94F /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83ABFF106F394ABB8DBDE966 /* Raleway-ExtraBold.ttf */; };
+		1D5CD1E495444C62A3FFFA0A /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8523C62C0CD4931A7429A4F /* Raleway-Thin.ttf */; };
+		297C1E80BFF94B31BD82C62F /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ACE6F36C34740ACA9A141DC /* Raleway-BoldItalic.ttf */; };
+		2B3F10AA08763EC05712F49A /* libPods-Lulla.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 479149236A9BE01A37DC96C4 /* libPods-Lulla.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* LullaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LullaTests.m */; };
-		398F6C70A5AF4B1DBEF25A32 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A799AFDAA8AE4789B10FEF99 /* Raleway-ExtraBoldItalic.ttf */; };
-		3D54007DA77B42BB40B877C9 /* libPods-LullaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C80F347FFABC2FCFDCF909A /* libPods-LullaTests.a */; };
-		47DD3AD3B1F0423ABA2A9697 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7179C3BF50B14D12899FBC9A /* Raleway-Italic.ttf */; };
-		4C7BA3ACECAF48E8835557B6 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14EAE819BAE4816BB59D5DD /* Raleway-Bold.ttf */; };
-		55A6444411034AAC917281F8 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A278E357084245FD8CF86F29 /* Raleway-Black.ttf */; };
-		598543EB24230F2D00D63BD5 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
-		72AD64ED4A5748F3B28C3EB0 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00E5B9D924394CCE93449AD7 /* Raleway-BlackItalic.ttf */; };
-		769560FA6A074760B6B21CB4 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62A90C89F224A8BA7E12099 /* Raleway-Regular.ttf */; };
-		77C9899E19844143A3B02EA2 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAEB266E35FD45DA99D2BB0F /* Raleway-SemiBold.ttf */; };
-		7EB1F48E78404222B3383BCF /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4D583EB5404EBD905EC1EF /* Raleway-SemiBoldItalic.ttf */; };
-		7FAA77D6B69D0DEE066C0AAC /* libPods-Lulla.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494850EA26FAA9A5D199FAC4 /* libPods-Lulla.a */; };
-		81A9C36BBBAE4577B897CAF1 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E9F1E39F2444C384AE3850 /* Raleway-LightItalic.ttf */; };
-		8975715D270277588054C5A5 /* libPods-Lulla-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 178A15C4E2B20486C4EC96C7 /* libPods-Lulla-tvOSTests.a */; };
-		AA3A26DAB47D4043B9CD21FD /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387943DB387C41BDA9473B65 /* Raleway-Light.ttf */; };
-		B3A74ECEB125BB0F122D760A /* libPods-Lulla-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65688DDDA731651B14F8CFAC /* libPods-Lulla-tvOS.a */; };
-		D129BCD30EC841959BE60BA3 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD71C329773449C690B4FC24 /* Raleway-ExtraLightItalic.ttf */; };
-		D61FA4336211480992544BE9 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD6E6205134E4854AE2E7C53 /* Raleway-ThinItalic.ttf */; };
-		DBC2BC6785D449E1AA7BDFB2 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC2E2A02E74F478883A9233A /* Raleway-Medium.ttf */; };
-		DD41F4A9235F40669606B48E /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D87496E69C8940C5921EF967 /* Raleway-BoldItalic.ttf */; };
-		E23A653299184D798BB13A11 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16FE3A8669B841278BF2F574 /* Raleway-Thin.ttf */; };
+		38DA4023CF76428F983CC78B /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95CB3E8ACAE243649463092B /* Raleway-SemiBold.ttf */; };
+		3E8561DFFE984E5F8F2CBE9A /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB552F0B61B46E88F9D9ABC /* Raleway-MediumItalic.ttf */; };
+		40847B30069046E083170281 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAD961089A4C43B0AFFAF22A /* Raleway-ExtraLight.ttf */; };
+		429959CEAC26497ABA25966C /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BB6E33BA09E4545AD538C0D /* Raleway-ExtraLightItalic.ttf */; };
+		4671CDEC824E4E939F560045 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE7748F13AE847B59B7638AA /* Raleway-LightItalic.ttf */; };
+		4A2D19CE3EC841E78763A8E6 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88E503E9F17343F39B8373B2 /* Raleway-Bold.ttf */; };
+		4FDCC2D407AF47C7A7DF9829 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 809EA7D71AF942AF9BA94D64 /* Raleway-SemiBoldItalic.ttf */; };
+		59D4CE0724F2A1B100C23746 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D4CE0324F2A1B100C23746 /* FontAwesome.ttf */; };
+		59D4CE0824F2A1B100C23746 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D4CE0424F2A1B100C23746 /* FontAwesome5_Brands.ttf */; };
+		59D4CE0924F2A1B100C23746 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D4CE0524F2A1B100C23746 /* FontAwesome5_Regular.ttf */; };
+		59D4CE0A24F2A1B100C23746 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59D4CE0624F2A1B100C23746 /* FontAwesome5_Solid.ttf */; };
+		59D4CE1524F2B57500C23746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		68B2D870C39843938B7BA52B /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA975125236448F4A621AC69 /* Raleway-Black.ttf */; };
+		6F105DAAE07C41E0AF20ADA4 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287DEC7A7EFD476680844DD4 /* Raleway-ThinItalic.ttf */; };
+		7AF3359F714C1FC01D5CEED3 /* libPods-Lulla-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 251D8FAF2ACFD936B53E14E0 /* libPods-Lulla-tvOSTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81AD26C78DA54EA69B53A57C /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EAB9231730048CF85C78D75 /* Raleway-ExtraBoldItalic.ttf */; };
+		81BDECC9D96D48B6B60679ED /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 242F6AD5FB2C4A3390831355 /* Raleway-Italic.ttf */; };
+		8957DEE685224CA7A61B422A /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 112C04E1E67045299B957B0C /* Raleway-BlackItalic.ttf */; };
+		8BBC0D6666AD40BC94B59C9A /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E0E160FA1246E0945F70A7 /* Raleway-ExtraBold.ttf */; };
+		9D1ABBE90C824459B2EFB805 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A13F479FDF0041F78F54080E /* Raleway-Medium.ttf */; };
+		A49B3D21FE2B2366A685B002 /* libPods-Lulla-LullaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF44A4FFB08C332296C1CDAE /* libPods-Lulla-LullaTests.a */; };
+		A6A14C1830987808271D09E6 /* libPods-Lulla-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD78073B80F1988DDEFE2F3 /* libPods-Lulla-tvOS.a */; };
+		BA81BBA454834C128FD42C65 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC04E8AB19642FDB768DA50 /* Raleway-Light.ttf */; };
+		D25E843DFD6740F1BBAC0CAC /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAC5710EE84BF4995DE7D5 /* Raleway-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,51 +66,51 @@
 		00E356EE1AD99517003FC87E /* LullaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LullaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LullaTests.m; sourceTree = "<group>"; };
-		00E5B9D924394CCE93449AD7 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
-		067896897B14FBAFF55C41AA /* Pods-Lulla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla.debug.xcconfig"; path = "Target Support Files/Pods-Lulla/Pods-Lulla.debug.xcconfig"; sourceTree = "<group>"; };
-		0CF2BA7E5F3EF5492730B085 /* Pods-Lulla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla.release.xcconfig"; path = "Target Support Files/Pods-Lulla/Pods-Lulla.release.xcconfig"; sourceTree = "<group>"; };
+		0EAB9231730048CF85C78D75 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		112C04E1E67045299B957B0C /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Lulla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lulla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lulla/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Lulla/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Lulla/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Lulla/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Lulla/main.m; sourceTree = "<group>"; };
-		16FE3A8669B841278BF2F574 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; };
-		178A15C4E2B20486C4EC96C7 /* libPods-Lulla-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAC5710EE84BF4995DE7D5 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		1BB6E33BA09E4545AD538C0D /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		20C8F6C449FEEC5AC80E55BE /* Pods-Lulla-LullaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-LullaTests.release.xcconfig"; path = "Target Support Files/Pods-Lulla-LullaTests/Pods-Lulla-LullaTests.release.xcconfig"; sourceTree = "<group>"; };
+		216FE5602C0B9C0BC9F53ED7 /* Pods-Lulla-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOS/Pods-Lulla-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2185863F1568063E7D9DABC5 /* Pods-Lulla-LullaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-LullaTests.debug.xcconfig"; path = "Target Support Files/Pods-Lulla-LullaTests/Pods-Lulla-LullaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		242F6AD5FB2C4A3390831355 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		251D8FAF2ACFD936B53E14E0 /* libPods-Lulla-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287DEC7A7EFD476680844DD4 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Lulla-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lulla-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Lulla-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lulla-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		387943DB387C41BDA9473B65 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
-		494850EA26FAA9A5D199FAC4 /* libPods-Lulla.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B7ED7723BD6A7100AA5A7E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		59B7ED7823BD6A7100AA5A7E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		59B7ED7923BD6A7100AA5A7E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		59B7ED7A23BD6A7100AA5A7E /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		5C80F347FFABC2FCFDCF909A /* libPods-LullaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LullaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65688DDDA731651B14F8CFAC /* libPods-Lulla-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7179C3BF50B14D12899FBC9A /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; };
-		83ABFF106F394ABB8DBDE966 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A0CABECECE9053B153786835 /* Pods-Lulla-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOS/Pods-Lulla-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A22AE246758AC7733639383A /* Pods-Lulla-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOSTests/Pods-Lulla-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A278E357084245FD8CF86F29 /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
-		A799AFDAA8AE4789B10FEF99 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		B7E9F1E39F2444C384AE3850 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
-		BC36F71DADC40CF8240E91E3 /* Pods-LullaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullaTests.debug.xcconfig"; path = "Target Support Files/Pods-LullaTests/Pods-LullaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0B0F2F54F1C47045363DB24 /* Pods-Lulla-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOSTests/Pods-Lulla-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD6DE4E6418843AC9C276977 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
-		D62A90C89F224A8BA7E12099 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
-		D87496E69C8940C5921EF967 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
-		DD6E6205134E4854AE2E7C53 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
-		E14EAE819BAE4816BB59D5DD /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
-		E4F3D6C4B2A532C75D3E3C19 /* Pods-LullaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LullaTests.release.xcconfig"; path = "Target Support Files/Pods-LullaTests/Pods-LullaTests.release.xcconfig"; sourceTree = "<group>"; };
-		E6F5360E986745D0A8EB1DD6 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
-		EAEB266E35FD45DA99D2BB0F /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
-		EC2E2A02E74F478883A9233A /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		39C4B9FEA2C36CAA3D1EA5AF /* Pods-Lulla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla.debug.xcconfig"; path = "Target Support Files/Pods-Lulla/Pods-Lulla.debug.xcconfig"; sourceTree = "<group>"; };
+		3DB552F0B61B46E88F9D9ABC /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		479149236A9BE01A37DC96C4 /* libPods-Lulla.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC04E8AB19642FDB768DA50 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		59D4CE0324F2A1B100C23746 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		59D4CE0424F2A1B100C23746 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		59D4CE0524F2A1B100C23746 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		59D4CE0624F2A1B100C23746 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		61CFFCF31F09536F63216D6F /* Pods-Lulla-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOSTests/Pods-Lulla-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67BE1147EF8AEF43FAFDBF28 /* Pods-Lulla-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOS/Pods-Lulla-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6BD78073B80F1988DDEFE2F3 /* libPods-Lulla-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809EA7D71AF942AF9BA94D64 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Lulla/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88E503E9F17343F39B8373B2 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		8ACE6F36C34740ACA9A141DC /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		95CB3E8ACAE243649463092B /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		A13F479FDF0041F78F54080E /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		AA975125236448F4A621AC69 /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		AE7748F13AE847B59B7638AA /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		AF44A4FFB08C332296C1CDAE /* libPods-Lulla-LullaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lulla-LullaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF56EB042367BC082822832 /* Pods-Lulla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla.release.xcconfig"; path = "Target Support Files/Pods-Lulla/Pods-Lulla.release.xcconfig"; sourceTree = "<group>"; };
+		B3E0E160FA1246E0945F70A7 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C78F65423CF8972AD99FAEE2 /* Pods-Lulla-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOSTests/Pods-Lulla-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8523C62C0CD4931A7429A4F /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		DAD961089A4C43B0AFFAF22A /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FA4D583EB5404EBD905EC1EF /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		FD71C329773449C690B4FC24 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		FF42BC824F08FAD550FC375B /* Pods-Lulla-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lulla-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Lulla-tvOS/Pods-Lulla-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D54007DA77B42BB40B877C9 /* libPods-LullaTests.a in Frameworks */,
+				A49B3D21FE2B2366A685B002 /* libPods-Lulla-LullaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAA77D6B69D0DEE066C0AAC /* libPods-Lulla.a in Frameworks */,
+				2B3F10AA08763EC05712F49A /* libPods-Lulla.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A74ECEB125BB0F122D760A /* libPods-Lulla-tvOS.a in Frameworks */,
+				A6A14C1830987808271D09E6 /* libPods-Lulla-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8975715D270277588054C5A5 /* libPods-Lulla-tvOSTests.a in Frameworks */,
+				7AF3359F714C1FC01D5CEED3 /* libPods-Lulla-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,58 +166,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1031972874CE2C8ECE5161CB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				067896897B14FBAFF55C41AA /* Pods-Lulla.debug.xcconfig */,
-				0CF2BA7E5F3EF5492730B085 /* Pods-Lulla.release.xcconfig */,
-				FF42BC824F08FAD550FC375B /* Pods-Lulla-tvOS.debug.xcconfig */,
-				A0CABECECE9053B153786835 /* Pods-Lulla-tvOS.release.xcconfig */,
-				A22AE246758AC7733639383A /* Pods-Lulla-tvOSTests.debug.xcconfig */,
-				C0B0F2F54F1C47045363DB24 /* Pods-Lulla-tvOSTests.release.xcconfig */,
-				BC36F71DADC40CF8240E91E3 /* Pods-LullaTests.debug.xcconfig */,
-				E4F3D6C4B2A532C75D3E3C19 /* Pods-LullaTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* Lulla */ = {
 			isa = PBXGroup;
 			children = (
+				59D4CE0224F2A09000C23746 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = Lulla;
 			sourceTree = "<group>";
 		};
-		1988E012BA424E1C93A2AC81 /* Resources */ = {
+		27BA415AF12A9439D5B8BC77 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A278E357084245FD8CF86F29 /* Raleway-Black.ttf */,
-				00E5B9D924394CCE93449AD7 /* Raleway-BlackItalic.ttf */,
-				E14EAE819BAE4816BB59D5DD /* Raleway-Bold.ttf */,
-				D87496E69C8940C5921EF967 /* Raleway-BoldItalic.ttf */,
-				83ABFF106F394ABB8DBDE966 /* Raleway-ExtraBold.ttf */,
-				A799AFDAA8AE4789B10FEF99 /* Raleway-ExtraBoldItalic.ttf */,
-				E6F5360E986745D0A8EB1DD6 /* Raleway-ExtraLight.ttf */,
-				FD71C329773449C690B4FC24 /* Raleway-ExtraLightItalic.ttf */,
-				7179C3BF50B14D12899FBC9A /* Raleway-Italic.ttf */,
-				387943DB387C41BDA9473B65 /* Raleway-Light.ttf */,
-				B7E9F1E39F2444C384AE3850 /* Raleway-LightItalic.ttf */,
-				EC2E2A02E74F478883A9233A /* Raleway-Medium.ttf */,
-				CD6DE4E6418843AC9C276977 /* Raleway-MediumItalic.ttf */,
-				D62A90C89F224A8BA7E12099 /* Raleway-Regular.ttf */,
-				EAEB266E35FD45DA99D2BB0F /* Raleway-SemiBold.ttf */,
-				FA4D583EB5404EBD905EC1EF /* Raleway-SemiBoldItalic.ttf */,
-				16FE3A8669B841278BF2F574 /* Raleway-Thin.ttf */,
-				DD6E6205134E4854AE2E7C53 /* Raleway-ThinItalic.ttf */,
+				39C4B9FEA2C36CAA3D1EA5AF /* Pods-Lulla.debug.xcconfig */,
+				AFF56EB042367BC082822832 /* Pods-Lulla.release.xcconfig */,
+				2185863F1568063E7D9DABC5 /* Pods-Lulla-LullaTests.debug.xcconfig */,
+				20C8F6C449FEEC5AC80E55BE /* Pods-Lulla-LullaTests.release.xcconfig */,
+				216FE5602C0B9C0BC9F53ED7 /* Pods-Lulla-tvOS.debug.xcconfig */,
+				67BE1147EF8AEF43FAFDBF28 /* Pods-Lulla-tvOS.release.xcconfig */,
+				61CFFCF31F09536F63216D6F /* Pods-Lulla-tvOSTests.debug.xcconfig */,
+				C78F65423CF8972AD99FAEE2 /* Pods-Lulla-tvOSTests.release.xcconfig */,
 			);
-			name = Resources;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -222,12 +201,48 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				494850EA26FAA9A5D199FAC4 /* libPods-Lulla.a */,
-				65688DDDA731651B14F8CFAC /* libPods-Lulla-tvOS.a */,
-				178A15C4E2B20486C4EC96C7 /* libPods-Lulla-tvOSTests.a */,
-				5C80F347FFABC2FCFDCF909A /* libPods-LullaTests.a */,
+				479149236A9BE01A37DC96C4 /* libPods-Lulla.a */,
+				AF44A4FFB08C332296C1CDAE /* libPods-Lulla-LullaTests.a */,
+				6BD78073B80F1988DDEFE2F3 /* libPods-Lulla-tvOS.a */,
+				251D8FAF2ACFD936B53E14E0 /* libPods-Lulla-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AF9AC45394C4584AB9471DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA975125236448F4A621AC69 /* Raleway-Black.ttf */,
+				112C04E1E67045299B957B0C /* Raleway-BlackItalic.ttf */,
+				88E503E9F17343F39B8373B2 /* Raleway-Bold.ttf */,
+				8ACE6F36C34740ACA9A141DC /* Raleway-BoldItalic.ttf */,
+				B3E0E160FA1246E0945F70A7 /* Raleway-ExtraBold.ttf */,
+				0EAB9231730048CF85C78D75 /* Raleway-ExtraBoldItalic.ttf */,
+				DAD961089A4C43B0AFFAF22A /* Raleway-ExtraLight.ttf */,
+				1BB6E33BA09E4545AD538C0D /* Raleway-ExtraLightItalic.ttf */,
+				242F6AD5FB2C4A3390831355 /* Raleway-Italic.ttf */,
+				4EC04E8AB19642FDB768DA50 /* Raleway-Light.ttf */,
+				AE7748F13AE847B59B7638AA /* Raleway-LightItalic.ttf */,
+				A13F479FDF0041F78F54080E /* Raleway-Medium.ttf */,
+				3DB552F0B61B46E88F9D9ABC /* Raleway-MediumItalic.ttf */,
+				1ADAC5710EE84BF4995DE7D5 /* Raleway-Regular.ttf */,
+				95CB3E8ACAE243649463092B /* Raleway-SemiBold.ttf */,
+				809EA7D71AF942AF9BA94D64 /* Raleway-SemiBoldItalic.ttf */,
+				D8523C62C0CD4931A7429A4F /* Raleway-Thin.ttf */,
+				287DEC7A7EFD476680844DD4 /* Raleway-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		59D4CE0224F2A09000C23746 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				59D4CE0324F2A1B100C23746 /* FontAwesome.ttf */,
+				59D4CE0424F2A1B100C23746 /* FontAwesome5_Brands.ttf */,
+				59D4CE0524F2A1B100C23746 /* FontAwesome5_Regular.ttf */,
+				59D4CE0624F2A1B100C23746 /* FontAwesome5_Solid.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -240,17 +255,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				59B7ED7923BD6A7100AA5A7E /* FontAwesome.ttf */,
-				59B7ED7823BD6A7100AA5A7E /* FontAwesome5_Brands.ttf */,
-				59B7ED7A23BD6A7100AA5A7E /* FontAwesome5_Regular.ttf */,
-				59B7ED7723BD6A7100AA5A7E /* FontAwesome5_Solid.ttf */,
 				13B07FAE1A68108700A75B9A /* Lulla */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LullaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				1031972874CE2C8ECE5161CB /* Pods */,
-				1988E012BA424E1C93A2AC81 /* Resources */,
+				27BA415AF12A9439D5B8BC77 /* Pods */,
+				3AF9AC45394C4584AB9471DB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -275,10 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LullaTests" */;
 			buildPhases = (
-				216C62FFE4C76DDCDB5B8CD9 /* [CP] Check Pods Manifest.lock */,
+				BC5A0BB25F23F3CA142A64E6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				74CC69195BA3F6A2E19D45E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,13 +306,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Lulla" */;
 			buildPhases = (
-				B19ECD2CE5C0EBCF1B776390 /* [CP] Check Pods Manifest.lock */,
+				043EC8F579EDE8EB47439258 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F5A3964958E47A31557795FC /* [CP] Copy Pods Resources */,
+				95B175B5CAA851EF8DB738EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,7 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lulla-tvOS" */;
 			buildPhases = (
-				13EDC375386BC9FDB6E991BF /* [CP] Check Pods Manifest.lock */,
+				3DE18B9A9944DF51589E2B9E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -335,7 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Lulla-tvOSTests" */;
 			buildPhases = (
-				42DD2CEA3CBE5A5681FB6A1A /* [CP] Check Pods Manifest.lock */,
+				7D89530B8C73C46F06C6A685 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -356,8 +368,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -365,6 +376,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = DU78ULJW3G;
+						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -379,10 +391,9 @@
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Lulla" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -411,27 +422,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				59D4CE0824F2A1B100C23746 /* FontAwesome5_Brands.ttf in Resources */,
+				59D4CE0924F2A1B100C23746 /* FontAwesome5_Regular.ttf in Resources */,
+				59D4CE0A24F2A1B100C23746 /* FontAwesome5_Solid.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				55A6444411034AAC917281F8 /* Raleway-Black.ttf in Resources */,
-				72AD64ED4A5748F3B28C3EB0 /* Raleway-BlackItalic.ttf in Resources */,
-				4C7BA3ACECAF48E8835557B6 /* Raleway-Bold.ttf in Resources */,
-				DD41F4A9235F40669606B48E /* Raleway-BoldItalic.ttf in Resources */,
-				2900B04F46644B53AB0BE94F /* Raleway-ExtraBold.ttf in Resources */,
-				398F6C70A5AF4B1DBEF25A32 /* Raleway-ExtraBoldItalic.ttf in Resources */,
-				1631CC7CF9D448DE903836D2 /* Raleway-ExtraLight.ttf in Resources */,
-				D129BCD30EC841959BE60BA3 /* Raleway-ExtraLightItalic.ttf in Resources */,
-				47DD3AD3B1F0423ABA2A9697 /* Raleway-Italic.ttf in Resources */,
-				AA3A26DAB47D4043B9CD21FD /* Raleway-Light.ttf in Resources */,
-				598543EB24230F2D00D63BD5 /* main.jsbundle in Resources */,
-				81A9C36BBBAE4577B897CAF1 /* Raleway-LightItalic.ttf in Resources */,
-				DBC2BC6785D449E1AA7BDFB2 /* Raleway-Medium.ttf in Resources */,
-				1B83AD899F9F43248DFDF5FE /* Raleway-MediumItalic.ttf in Resources */,
-				769560FA6A074760B6B21CB4 /* Raleway-Regular.ttf in Resources */,
-				77C9899E19844143A3B02EA2 /* Raleway-SemiBold.ttf in Resources */,
-				7EB1F48E78404222B3383BCF /* Raleway-SemiBoldItalic.ttf in Resources */,
-				E23A653299184D798BB13A11 /* Raleway-Thin.ttf in Resources */,
-				D61FA4336211480992544BE9 /* Raleway-ThinItalic.ttf in Resources */,
+				59D4CE0724F2A1B100C23746 /* FontAwesome.ttf in Resources */,
+				68B2D870C39843938B7BA52B /* Raleway-Black.ttf in Resources */,
+				8957DEE685224CA7A61B422A /* Raleway-BlackItalic.ttf in Resources */,
+				4A2D19CE3EC841E78763A8E6 /* Raleway-Bold.ttf in Resources */,
+				297C1E80BFF94B31BD82C62F /* Raleway-BoldItalic.ttf in Resources */,
+				8BBC0D6666AD40BC94B59C9A /* Raleway-ExtraBold.ttf in Resources */,
+				81AD26C78DA54EA69B53A57C /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				40847B30069046E083170281 /* Raleway-ExtraLight.ttf in Resources */,
+				429959CEAC26497ABA25966C /* Raleway-ExtraLightItalic.ttf in Resources */,
+				81BDECC9D96D48B6B60679ED /* Raleway-Italic.ttf in Resources */,
+				BA81BBA454834C128FD42C65 /* Raleway-Light.ttf in Resources */,
+				4671CDEC824E4E939F560045 /* Raleway-LightItalic.ttf in Resources */,
+				9D1ABBE90C824459B2EFB805 /* Raleway-Medium.ttf in Resources */,
+				3E8561DFFE984E5F8F2CBE9A /* Raleway-MediumItalic.ttf in Resources */,
+				D25E843DFD6740F1BBAC0CAC /* Raleway-Regular.ttf in Resources */,
+				38DA4023CF76428F983CC78B /* Raleway-SemiBold.ttf in Resources */,
+				4FDCC2D407AF47C7A7DF9829 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				1D5CD1E495444C62A3FFFA0A /* Raleway-Thin.ttf in Resources */,
+				6F105DAAE07C41E0AF20ADA4 /* Raleway-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,89 +479,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		13EDC375386BC9FDB6E991BF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lulla-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		216C62FFE4C76DDCDB5B8CD9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LullaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		42DD2CEA3CBE5A5681FB6A1A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lulla-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B19ECD2CE5C0EBCF1B776390 /* [CP] Check Pods Manifest.lock */ = {
+		043EC8F579EDE8EB47439258 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -569,52 +503,120 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F5A3964958E47A31557795FC /* [CP] Copy Pods Resources */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3DE18B9A9944DF51589E2B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lulla-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CC69195BA3F6A2E19D45E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lulla-LullaTests/Pods-Lulla-LullaTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lulla-LullaTests/Pods-Lulla-LullaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D89530B8C73C46F06C6A685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lulla-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B175B5CAA851EF8DB738EF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Lulla/Pods-Lulla-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lulla/Pods-Lulla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5A0BB25F23F3CA142A64E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lulla-LullaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -670,7 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				59D4CE1524F2B57500C23746 /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,22 +709,10 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = Lulla;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC36F71DADC40CF8240E91E3 /* Pods-LullaTests.debug.xcconfig */;
+			baseConfigurationReference = 2185863F1568063E7D9DABC5 /* Pods-Lulla-LullaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -730,7 +720,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = LullaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -745,12 +735,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F3D6C4B2A532C75D3E3C19 /* Pods-LullaTests.release.xcconfig */;
+			baseConfigurationReference = 20C8F6C449FEEC5AC80E55BE /* Pods-Lulla-LullaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = LullaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -765,12 +755,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 067896897B14FBAFF55C41AA /* Pods-Lulla.debug.xcconfig */;
+			baseConfigurationReference = 39C4B9FEA2C36CAA3D1EA5AF /* Pods-Lulla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = DU78ULJW3G;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Lulla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -780,15 +771,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Lulla;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CF2BA7E5F3EF5492730B085 /* Pods-Lulla.release.xcconfig */;
+			baseConfigurationReference = AFF56EB042367BC082822832 /* Pods-Lulla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DU78ULJW3G;
 				INFOPLIST_FILE = Lulla/Info.plist;
@@ -800,13 +794,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Lulla;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF42BC824F08FAD550FC375B /* Pods-Lulla-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 216FE5602C0B9C0BC9F53ED7 /* Pods-Lulla-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -824,17 +819,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lulla-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lulla-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0CABECECE9053B153786835 /* Pods-Lulla-tvOS.release.xcconfig */;
+			baseConfigurationReference = 67BE1147EF8AEF43FAFDBF28 /* Pods-Lulla-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -852,17 +847,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lulla-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lulla-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22AE246758AC7733639383A /* Pods-Lulla-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 61CFFCF31F09536F63216D6F /* Pods-Lulla-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -879,7 +874,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lulla-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lulla-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lulla-tvOS.app/Lulla-tvOS";
@@ -889,7 +884,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0B0F2F54F1C47045363DB24 /* Pods-Lulla-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = C78F65423CF8972AD99FAEE2 /* Pods-Lulla-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -906,7 +901,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Lulla-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Lulla-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lulla-tvOS.app/Lulla-tvOS";
@@ -918,6 +913,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -960,7 +956,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -971,6 +973,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1006,7 +1009,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
