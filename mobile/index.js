@@ -43,7 +43,7 @@ const mainNavPathRoot = {
         stack: {
             children: [{
                 component: {
-                    name: 'StoryBooks'//"Interaction Mangement Screen",
+                    name: "Interaction Mangement Screen",
                 }
             }],
             options: {
